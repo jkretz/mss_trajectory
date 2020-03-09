@@ -31,10 +31,12 @@ def add_waypoint(dict_in, **kwargs):
     return
 
 
-data_trajectory = {'filename': 'test.ftml', 'waypoint': {}}
-for wp_n in range(3):
-    add_waypoint(data_trajectory['waypoint'], location='test_'+str(wp_n),
-                 lat=78+(2*wp_n), lon=15-(5*wp_n), flightlevel=0, comments='')
-save_to_ftml(data_trajectory)
+
+
+# data_trajectory = {'filename': 'test.ftml', 'waypoint': {}}
+# for wp_n in range(3):
+#     add_waypoint(data_trajectory['waypoint'], location='test_'+str(wp_n),
+#                  lat=78+(2*wp_n), lon=15-(5*wp_n), flightlevel=0, comments='')
+# save_to_ftml(data_trajectory)
 
 exit()
