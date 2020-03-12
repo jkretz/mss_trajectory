@@ -1,3 +1,4 @@
 *.ftml*
 .git
 .idea
+*.txt
